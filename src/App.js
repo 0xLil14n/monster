@@ -58,6 +58,7 @@ class App extends Component {
 const StyledApp = styled.div`
   text-align: center;
   h1 {
+    margin: 0;
     font-family: "Bigelow Rules";
     font-size: 72px;
     color: #0ccac4;
