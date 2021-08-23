@@ -6,7 +6,7 @@ export const Search = (props) => {
   return (
     <StyledSearchBox
       type="search"
-      placeholder={props.placeholderText}
+      placeholder={placeholderText}
       onChange={handleChange}
     />
   );
