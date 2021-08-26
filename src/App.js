@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import { CardList } from "./components/card-list/card-list.component";
 import { Search } from "./components/search/search.component";
 import styled from "styled-components";
@@ -57,6 +56,7 @@ class App extends Component {
 
 const StyledApp = styled.div`
   text-align: center;
+  margin: 0;
   h1 {
     margin: 0;
     font-family: "Bigelow Rules";
@@ -68,5 +68,12 @@ const StyledApp = styled.div`
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
+
+  & > * {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 `;
 export default App;
